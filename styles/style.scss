@@ -1,0 +1,138 @@
+$plava1: #3864ff;
+$plava2: #2454ff;
+
+@media only screen and (max-width: 1350px) {
+    h1 {
+        font-size: 280% !important;
+        line-height: 57px !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .container-fluid {
+        width: 100% !important;
+    }
+    .navbar img {
+        width: 220px;
+    }
+    .mt {
+        margin-top: 12vh !important;
+    }
+    .pull-right {
+        font-size: 80%;
+    }
+    .card-text {
+        font-size: 22px !important;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .navbar img {
+        width: 180px;
+    }
+}
+
+* {
+    transition: 0.1s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter";
+    background-color: #ffffff;
+}
+
+p,
+a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    color: black;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 380%;
+    line-height: 77px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 220%;
+}
+
+a:hover {
+    color: $plava1 !important;
+}
+
+.btn {
+    font-size: 22px !important;
+    border-radius: 20px !important;
+}
+
+header, footer {
+    background-color: #FFFFFF;
+}
+
+.fa {
+    opacity: 0.84;
+}
+
+.contact {
+    width: 135px;
+    height: 45px;
+}
+
+.contact:hover {
+    color: white !important;
+}
+
+.mt {
+    margin-top: 15vh;
+}
+
+.container-fluid {
+    width: 85%;
+}
+
+.navbar {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.24);
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.bg-blue {
+    background-color: $plava2;
+}
+
+.bg-blue:hover {
+    color:white !important;
+}
+
+.radius {
+    border-radius: 20px;
+}
+
+.radius-top {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.maps {
+    width: 100% !important;
+    height: 60vh;
+}
+
+.card-text {
+    font-size: 32px;
+}
+
+#page {
+    position: absolute;
+    top: 0;
+}
